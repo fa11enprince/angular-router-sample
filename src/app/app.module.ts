@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { MaterializeModule } from 'angular2-materialize';
-
 import {RoutingModule} from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -24,7 +22,6 @@ import { SecondchildComponent } from './secondchild/secondchild.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterializeModule,
     RoutingModule
   ],
   providers: [],
